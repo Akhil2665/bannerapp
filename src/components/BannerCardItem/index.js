@@ -5,11 +5,13 @@ const GetTheBanner = props => {
   const {headerText, description, className} = bannerDetails
   const btnText = 'Show More'
   return (
-    <li className={`spacing ${className}`}>
-      <div className="each-card">
+    <li className={`banner-card-item ${className}`}>
+      <div>
         <h1 className="banner-name">{headerText}</h1>
         <p className="banner-description">{description}</p>
-        <button className="more-button">{btnText}</button>
+        <button className="more-btn" type="button">
+          {btnText}
+        </button>
       </div>
     </li>
   )

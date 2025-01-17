@@ -1,3 +1,14 @@
+.banner-card-item {
+  border: 1px solid #cbced2;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 32px;
+  max-width: 1000px;
+  list-style-type: none;
+}
+
 .card-1 {
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
   background-size: cover;
@@ -5,7 +16,7 @@
 
 .card-2 {
   display: flex;
-  justify-content: flex-end ; 
+  justify-content: flex-end;
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
   background-size: cover;
 }
@@ -18,24 +29,28 @@
   background-size: cover;
 }
 
-/* Write your code here. */
-.each-card {
-  height: 240px;
-  width: 90%;
-  border: 2px dotted #cbced2;
-  flex-grow: 1;
-}
 .banner-name {
+  color: #326a9d;
+  font-family: 'Roboto';
   font-size: 36px;
+  font-weight: bold;
 }
+
 .banner-description {
-  font-size: 24px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
-.more-button {
+
+.more-btn {
+  color: #326a9d;
   background-color: #ffffff;
-  border-radius: 10px;
-  border: 4px solid #326a9d;
-}
-.spacing {
-  margin: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid #326a9d;
+  border-radius: 5px;
+  padding: 8px;
 }

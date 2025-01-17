@@ -14,11 +14,17 @@ body {
 /* Write your code here. */
 .page-container {
   font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
 }
 
 .cards-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  list-style-type: none;
+  align-items: center;
+  width: 100%;
+  padding-left: 0px;
 }
